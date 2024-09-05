@@ -1,0 +1,124 @@
+body{
+    background-color:antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu';
+    position: sticky;
+    top:0;
+    /* display: flex; */
+
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 50px;
+    background-color: black;
+    color:white;
+    align-items: center;
+}
+nav ul li{
+    padding: 0px 15px;
+}
+.brand img{
+    width: 40px;
+    padding: 0px 5px;
+
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    padding: 0px 15px;
+    font-weight: bolder;
+}
+.container{
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round';
+    display: flex;
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 15px;
+    padding: 35px;
+    background-image: url('bg.jpg');
+    flex-direction: column;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: rgb(135, 130, 130);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+    
+   
+    
+}
+.icons{
+    margin-top: 17px;
+}
+.icons i{
+    padding: 0px 33px;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 50px;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 51%;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+.songitem img{
+    width: 45px;
+    margin: 0px 32px;
+    /* padding: 0 25px; */
+    border-radius: 40px;
+}
+
+.timestamp{
+    margin: 0 12px;
+    /* cursor: pointer; */
+}
+.timestamp i{
+    /* margin: 0 12px; */
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 94px;
+    font-family: 'Varela Round';
+}
+.songinfo img{
+   opacity: 0;
+   transition: opacity 0.4s ease-in;
+}
+@media only screen and (max-width:1100px){
+    body{
+        background-color: red;
+
+    }
+    
+}
